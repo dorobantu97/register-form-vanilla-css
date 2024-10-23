@@ -26,32 +26,293 @@
             
             <div class="basic-info">
 
-                <h4>Basic Info</h4>
+                <div class="form-register-1">
 
+                    <h4 class="name-basic">Basic Info</h4>   
 
+                    <div class="form-1">
 
+                        <section class="login-form">
 
+                            <legend class="name">Name:*</legend>
+                            <input type="text" id="name" name="name">
 
+                            <legend class="email">Email Address:*</legend>
+                            <input type="text" id="email" name="email">
+
+                        </section>
+                        
+                            <legend class="job-role">Job Role
+                            </legend>
+                            <select id="job-role" class="job-role-ch" style="font-size:1em">
+                                <option value="arch">Architect IT</option>
+                                <option selected="" value="chose">Select job role</option>
+                                <option value="dev">Web Developer</option>
+                                <option value="full">Full Stack Developer</option>
+                                <option value="jr">Junior Web Developer</option>
+                                <option value="Sfe">Software Engineer</option>
+
+                            </select>
+                    </div>
+
+                </div>
+                
+                <div class="form-register-2">
+
+                    <h4 class="t-shirt-info">T-Shirt Info</h4>
+
+                    <div class="form-2">
+
+                        <div class="size-design">
+
+                            <div class="size-container">
+                                <legend class="size">Size:</legend>
+                                <select id="size" class="size" style="size">
+                                    <option value="XXS">XXS</option>
+                                    <option selected="XS" value="chose">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>
+
+                            <div class="design-container">
+                                <legend class="size">Design:</legend>
+                                <select id="design" class="design" style="design">
+                                    <option value="NEWNOVA">NEW NOVA</option>
+                                    <option selected="THEME" value="chose">Selected Theme</option>
+                                    <option value="URBAN">URBAN</option>
+                                    <option value="MOOD">MOOD</option>
+                                    <option value="LIGHT">LIGHT</option>
+                                    <option value="PREMIUM">PREMIUM</option>
+                                </select>
+                            </div>
+                        
+                        </div>
+
+                        <div class="legend-container">
+
+                        <legend class="size">Color:</legend>
+                        <select id="design" class="design" style="design">
+                            <option value="VR">VR</option>
+                            <option selected="THEME" value="chose">Selected a design theme above</option>
+                            <option value="CHILD">CHILD</option>
+                            <option value="UNDER">UNDER</option>
+                            <option value="PRO">PRO</option>
+                        </select>
+
+                        </div>
+
+                        <div class="job-input">
+                            <input type="text" id="text">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="register">
+
+                <h4 class="text-header-register">Register for activities *</h4>
+
+                <div class="card-conference">
+                
+                    <div class="conference">
+                
+                        <input type="checkbox" id="main" name="main" checked />
+                        <label for="main">Main Conference</label>
+                
+                    </div>
+                
+                    <div class="js-img">
+                        <i class="fa-brands fa-js"></i>
+                        <p>200$</p>
+                    </div>
+                
+                </div>
+
+                <div class="cards">
+
+                    <div class="card">
+
+                        <div class="card-part-1">
+                            <input type="checkbox" id="main" name="main" checked />
+                            <label for="main">JavaScript Libraries Workshop</label>
+                            <p>Tuesday 9am-12pm</p>
+                        </div>
+                        
+                        <div class="card-part-2">
+                            <i class="fa-solid fa-atom"></i>
+                            <p>100$</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                    
+                        <div class="card-part-1">
+                            <input type="checkbox" id="main" name="main" checked />
+                            <label for="main">Node.js Workshop</label>
+                            <p>Tuesday 1pm-4pm</p>
+                        </div>
+                    
+                        <div class="card-part-2">
+                            <i class="fa-brands fa-java"></i>
+                            <p>100$</p>
+                        </div>
+                    
+                    </div>
+
+                    <div class="card">
+                    
+                        <div class="card-part-1">
+                            <input type="checkbox" id="main" name="main" checked />
+                            <label for="main">JavaScript Frameworks Workshop</label>
+                            <p>Tuesday 9am-12pm</p>
+                        </div>
+                    
+                        <div class="card-part-2">
+                            <i class="fa-solid fa-a"></i>
+                            <p>100$</p>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="card">
+                    
+                        <div class="card-part-1">
+                            <input type="checkbox" id="main" name="main" checked />
+                            <label for="main">Build tools Workshop</label>
+                            <p>Tuesday 1pm-4pm</p>
+                        </div>
+                    
+                        <div class="card-part-2">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <p>100$</p>
+                        </div>
+                    
+                    </div>
+
+                    <div class="card">
+                    
+                        <div class="card-part-1">
+                            <input type="checkbox" id="main" name="main" checked />
+                            <label for="main">npm Workshop</label>
+                            <p>Wednesday 9am-12pm</p>
+                        </div>
+                    
+                        <div class="card-part-2">
+                            <i class="fa-brands fa-npm"></i>
+                            <p>100$</p>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="card">
+                    
+                        <div class="card-part-1">
+                            <input type="checkbox" id="main" name="main" checked />
+                            <label for="main">Express Workshop</label>
+                            <p>Wednesday 1pm-4pm</p>
+                        </div>
+                    
+                        <div class="card-part-2">
+                            <i class="fa-solid fa-x"></i>
+                            <p>100$</p>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                    
+            </div>
+
+            <h4 class="total-price">Total:$0</h4>
+
+            <div class="payment-info">
+                <h4>Payment Info</h4>
+
+                <div class="container-payment">
+
+                    <div class="terms-1">
+
+                        <div class="method-pay">
+                            <legend>I'm goint to pay with:</legend>
+                            <select id="design" class="design" style="design">
+                                <option value="VISA">VISA</option>
+                                <option selected="THEME" value="chose">Selected Payment Method</option>
+                                <option value="MASTERCARD">Mastercard</option>
+                                <option value="Virtual">Virtual Coin</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="card-pay">
+                            <legend>Card Number:*</legend>
+                            <input type="text" id="text">
+                            </select>
+                        </div>
+                        
+                    </div>
+
+                    <div class="terms-2-2">
+
+                        <div class="terms-1-2">
+
+                            <legend>Expiration Date:</legend>
+                            <select id="design" class="design" style="design">
+                                <option value="date">07</option>
+                                <option selected="date" value="chose">Selected Date</option>
+                                <option value="date">08</option>
+                                <option value="date">12</option>
+                            </select>
+
+                            <legend>Zip Code:*</legend>
+                            <input type="text" id="text">
+                        </div>
+                        <br>
+                        <div class="terms=1-2-2">
+                            <legend>Expiration Year:</legend>
+                            <select id="design" class="design" style="design">
+                                <option value="date">2025</option>
+                                <option selected="date" value="chose">Selected Year</option>
+                                <option value="date">2026</option>
+                                <option value="date">2027</option>
+                            </select>
+                            <br>
+                            <legend>CVV:*</legend>
+                            <input type="text" id="text">
+                        </div>
+
+                    </div>
+
+                </div>
+                <br>
+                <div class="paypal-method">
+                    <h4>PayPal</h4>
+                    <p>If you selected the PayPal option we'll take you to Paypal's site to set up you billing information, when
+                        you click "Register" below.
+                    </p>
+                </div>
+                <br>
+                <div class="bitcoin-method">
+                    <h4>Bitcoin</h4>
+                    <p>If you selected the Bitcoin option we'll take you to Coinbaise site to set up you billing information.
+                       Due to the nature of exchanging Bitcoin, all Bitcoin transactions will be final.
+                    </p>
+                </div>
+
+                <br>
+            <buton class="buton-register">Register</buton>
 
 
             </div>
 
         </section>
 
-
-
-
-
-
-
-
-
-
-
-     
-
     </div>
-
 
 </body>
 
